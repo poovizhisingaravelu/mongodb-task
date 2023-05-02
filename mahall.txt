@@ -1,0 +1,41 @@
+1.creating room:
+db.room.InsertOne([ _id: ObjectId("644bdaf0dea8fb82d0723433"),
+  roomid: 's201',
+  numberofseatavailable: 
+amenitis: [
+    'Audio Visual Equipment',
+    'Tables & Chairs',
+    'Onsite Kitchen',
+    'chairs tables'
+  ]}
+2.Booking room find room
+
+
+{
+  "_id": {
+    "$oid": "644bddcedea8fb82d0723434"
+  },
+  "coustamername": "poovizhi",
+  "date": {
+    "$date": "2023-04-28T14:53:02.843Z"
+  },
+  "starttime": "6AM",
+  "endtime": "12Pm",
+  "roomid": "F101",
+  "customername": "singaravelu",
+  "room name": "honemone"
+}
+3.room detail
+{
+  "_id": {
+    "$oid": "6449f3e88c71b4aeb1f9ccc8"
+  },
+  "Numberofbed": "single",
+  "amenities": [
+    " A/C",
+    "fridge, coffee maker and microwave",
+    "TV with wifi",
+    "Hair Dryer"
+  ],
+  "priceperhour": "2000"
+}
